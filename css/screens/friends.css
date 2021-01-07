@@ -30,6 +30,10 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.friends-screen__channel .user-component {
+  margin-top: 50px;
+}
+
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
