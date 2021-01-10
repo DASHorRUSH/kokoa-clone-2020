@@ -6,6 +6,7 @@
   margin-bottom: 15px;
   margin-top: -15px;
   font-size: 18px;
+  color: black;
 }
 
 #friends-display-link i {
@@ -20,18 +21,19 @@
 .friends-screen__channel {
   margin-top: 25px;
   border-top: var(--main-border);
+  border-color: white;
   padding-top: 15px;
 }
 
 .friends-screen__channel-header {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .friends-screen__channel .user-component {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 @keyframes hideSplashScreen {
@@ -45,7 +47,7 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: #1b1b1b;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -53,7 +55,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 126px;
-  animation: hideSplashScreen 0.4s ease-in-out forwards;
-  animation-delay: 0.7s;
+  font-size: 60px;
+  animation: hideSplashScreen 2.5s ease-in-out forwards;
+  animation-delay: 1.5s;
 }
+
+.friends-screen__friends {
+  margin-top: 35px;
+  border-top: var(--main-border);
+  border-color: white;
+}
+
+.friends-screen__friends .friends-screen__channel-header {
+  margin-top: 18px;
+}
+
+/*https://img6.yna.co.kr/etc/inner/KR/2020/02/03/AKR20200203081800009_01_i_P2.jpg*/

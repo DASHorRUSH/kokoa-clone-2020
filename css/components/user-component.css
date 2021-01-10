@@ -1,9 +1,7 @@
 .user-component {
-  display: flex;
-}
-
-.user-component {
   justify-content: space-between;
+  display: flex;
+  padding: 8px;
 }
 
 .user-component,
@@ -58,4 +56,29 @@
 
 .user-component__subtitle i {
   margin-left: 3px;
+}
+
+.user-component__column span {
+  color: white;
+}
+
+.user-component__column i {
+  color: white;
+}
+
+.user-component__column .user-component__time {
+  color: black;
+}
+
+.main-screen__chats .user-component {
+  background-color: white;
+  border-radius: 15px;
+  color: black;
+}
+
+.more-screen .user-component:first-child {
+  background-color: #313131;
+  padding: 15px;
+  color: white;
+  border-radius: 15px;
 }

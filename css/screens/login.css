@@ -44,7 +44,7 @@
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: yellow;
 }
 
 #login-form input[type="submit"] {
